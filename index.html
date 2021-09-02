@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Quick Quiz Game </title>
+    <link rel="stylesheet" href="app.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--=========== FontAweome CDN Link for Icons=============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    </head>
+    <body>
+        <!--========================Home============================-->
+        <div class="quiz-home-box custom-box show">
+            <p>By:</p>
+            <a href="https://www.linkedin.com/in/suraj-mehta-259b04210/" target="_blank" >Suraj Kr
+                Mehta</a>
+            <h4>Test Your Basic Knowgledge On HTML & CSS...</h4>
+            <hr style="margin-top: 50px">
+      
+            <button type="button" class="start-quiz-btn btn">Start Quiz</button>
+        </div>
+
+        <div class="quiz-box custom-box">
+            <div class ="stats">
+                <div class="score-board">
+                    <span class="score-text">Score:</span>
+                    <span class="correct-answers"></span>
+                </div>
+            </div>
+             <div class="question-box">
+                <div class="current-question-num">
+            
+                </div>
+                <div class="question-text">
+            
+                </div>
+            </div>
+            <div class="option-box">
+              
+            </div>
+            <hr style="margin-top: 50px">
+            <div class="next-question">
+                <button type="button" class="next-question-btn btn">Next</button>
+                <button type="button" class="see-result-btn btn">Result</button>
+            </div>
+        </div>
+        <div class="quiz-over-box custom-box">
+            <h2> Total Score</h1>
+            <hr style="margin-top: 30px">
+            <p> Your Total Attained Score is: <span class="total-score"></span></p>
+            <button type="button" class="play-again-quiz-btn btn">Play Again</button>
+            <button type="button" class="go-home-btn btn">Home</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
